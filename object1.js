@@ -49,3 +49,5 @@ var employees = [
 // We need you to write a script that will print someone's JavaScript ability level.
 // Please write a line that will print the JavaScript level for employee Chuck Taylor.
 // You will need both Array and Object syntax.
+
+console.log(employees[3].skillLevels.javascript);

@@ -8,3 +8,7 @@ var topFoods = ['Panang Curry', 'Pad Thai', 'Swimming Rama', 'Tom Kah'];
 // "Masamun Curry" to the last position. Use the built-in Array functions
 // to achieve this.
  
+topFoods.unshift('Pad Kee Mow');
+topFoods.push('Masamun Curry');
+
+console.log(topFoods);

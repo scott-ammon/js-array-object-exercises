@@ -8,3 +8,11 @@ var earlyBirds = ["Ellen", "Jerry", "Jasmine"];
 
 // Solve this using one of the built-in Array functions first. Then, rewrite
 // it using the newer Array spread operator.
+
+// using built-in Array functions
+var people = earlyBirds.concat(lateComers);
+console.log(people);
+
+// Array spread operator
+var peopleTwo = [...earlyBirds,...lateComers];
+console.log(peopleTwo);

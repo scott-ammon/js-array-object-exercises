@@ -6,3 +6,10 @@ var colors = ["red", "orange", "yellow", "green", "pink", "black", "gray", "blue
 
 // Write a script that removes the incorrect colors from the Array using built-in
 // Array functions.
+
+
+var correctColors = colors.splice(4, 3);
+
+console.log(colors);
+
+

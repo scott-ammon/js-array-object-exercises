@@ -9,3 +9,5 @@ var foodPairings = {
 // educated recommendations. What we need is an Array that only holds all the foods.
 // Using functions in the Object object, write a script that will print out all
 // foods in the object.
+
+console.log(Object.keys(foodPairings));
